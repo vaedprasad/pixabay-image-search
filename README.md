@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# PixaBay Image Search - Take Home Assesment
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Assignment
+
+This is a take-home technical challenge meant to both test your technical abilities with React as well as your prioritization of features given a fixed time frame. Using [Pixabay](https://pixabay.com/api/docs/) as a datasource, you will create a web app with a screen for searching for images as well as another screen for viewing individual image details. You will need an API url and API key from Pixabay which you can get by following the above link.
+
+The image search screen should include a search bar and list of images that can be clicked. Upon clicking on an image, you should be navigated to the image detail screen. The image detail screen should display the user that posted the image as well as any relevant tags.
+
+You will have 3 hours to complete this challenge, and we ask that you complete it all in one sitting, using commits to mark when you started and finished, even if you go over on time. Upon completion, push your code to Github (to your own account) as you will be presenting the code to Matthew at a later time.
+
+## Description
+
+After following the instructions below to run the application, you can search for an image using the search bar. You can also toggle the number of images shown on the page by select 10, 25, or 50 images per page. The images presented in the grid contain the author and the relevant tags for the image. By clicking on a particular image you can view an image detail screen which displays a larger resolution of the image, the user that posted the image, and the corresponding tags for the specified image. In addition, the detail view of the image provides a link for the author's PixaBay page where one can view additional images submitted by the author.
 
 ## Available Scripts
 
