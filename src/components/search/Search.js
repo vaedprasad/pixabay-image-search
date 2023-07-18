@@ -71,7 +71,7 @@ export default class Search extends Component {
           onChange={this.onImagesPerPageChange}
         >
           <MenuItem value={10} primaryText="10" />
-          <MenuItem value={15} primaryText="25" />
+          <MenuItem value={25} primaryText="25" />
           <MenuItem value={50} primaryText="50" />
         </SelectField>
         <br />
